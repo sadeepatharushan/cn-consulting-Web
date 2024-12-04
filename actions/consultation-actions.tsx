@@ -34,9 +34,9 @@ export async function createConsultation(prevState: unknown, formData: FormData)
 
         resend.emails.send({
         from: 'onboarding@resend.dev',
-        to: 'visurasurajitha@gmail.com',
-        subject: 'Hello World',
-        html: '<p>new consultation added!</p>'
+        to: 'sadeepatharushan158@gmail.com',
+        subject: 'new consultation',
+        html: '<h2>new consultation added!</h2>'
         });
 
         return submission.reply()
